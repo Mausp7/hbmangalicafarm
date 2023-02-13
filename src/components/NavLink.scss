@@ -1,0 +1,15 @@
+@use '../style/colors.scss';
+
+.nav-link {
+    padding: 12px 5px;
+    border-radius: 3px;
+
+    font-size: 19px;
+    text-transform: uppercase;
+
+    transition: background-color 150ms linear;
+
+    &:hover {
+        background-color: colors.$tertiary;
+    }
+}

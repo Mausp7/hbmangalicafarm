@@ -1,0 +1,62 @@
+@use '../style/colors.scss';
+
+section#emergency {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    @media screen and (min-width: 800px) {
+        flex-direction: row;
+        }
+
+    justify-content: space-between;
+
+    padding: 60px 20px 80px;
+    background-color: colors.$light;
+
+    @media screen and (min-width: 800px) {
+        padding: 80px 40px 80px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 80px 40px 60px;
+    }
+
+    .text-container {
+        @media screen and (max-width: 799px) {
+            margin-bottom: 40px;
+        }
+
+        @media screen and (min-width: 800px) and (max-width: 1199px) {
+            margin-right: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+    
+            text-align: justify;
+        }
+
+        p:last-child {
+            margin-bottom: 0px;
+        }
+    }
+
+    .img-container {
+        min-width: 50%;
+        height: 100%;
+        min-height: 250px;
+        //margin-top: 30px;
+
+        @media screen and (min-width: 800px) {
+            margin-left: 20px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: none;
+        }
+
+        background-position: center;
+        background-size: cover;
+    }
+}

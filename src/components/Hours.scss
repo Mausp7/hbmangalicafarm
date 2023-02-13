@@ -1,0 +1,26 @@
+@use '../style/colors.scss';
+
+#hours {
+    justify-content: space-between;
+    height: 100%;
+
+    padding: 60px 20px 60px;
+    background-color: colors.$primary;
+
+    color: colors.$light;
+
+    @media screen and (min-width: 800px) {
+        padding: 80px 40px 60px;
+    }
+
+    p:not(.check-in){
+        text-align: right;
+    }
+
+    p.check-in {
+        margin-top: 40px;
+
+        font-weight: 600;
+        text-align: justify;
+    }
+}

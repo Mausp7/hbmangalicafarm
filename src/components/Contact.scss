@@ -1,0 +1,17 @@
+@use '../style/colors.scss';
+
+#contact {
+    justify-content: space-between;
+    height: 100%;
+
+    padding: 60px 20px 60px;
+    background-color: colors.$light;
+
+    @media screen and (min-width: 800px) {
+        padding: 80px 40px 60px;
+    }
+
+    p {
+        text-align: right;
+    }
+}

@@ -1,0 +1,77 @@
+{
+	"header": {
+		"title": "Szürke Puli",
+		"description": "Városközponti Állatgyógyászati Centrum"
+	},
+	"nav": {
+		"about": "Rólunk",
+		"services": "Szolgáltatások",
+		"hours": "Nyitvatartás",
+		"emergency": "Ügyelet",
+		"contact": "Kapcsolat",
+		"language": "Nyelv"
+	},
+	"about": {
+		"title": "Üdvözlöm honlapunkon!",
+		"content": "Dr. Tombácz Nándor vagyok, állatorvos. A diplomámat cum laude minősítéssel szereztem 1984-ben, majd nagyüzemi és háztáji haszonállatokkal kezdtem foglalkozni Pannonhalmán és környékén. \n A rendszerváltás után az állatállomány drasztikus csökkenése következtében áttértem az igazgatási vonalra, a rajkai Állategészségügyi Határállomás vezető főállatorvosa lettem, és 1996-ban közigazgatási szakvizsgát tettem. \n Párhuzamosan elkezdtem a mosonmagyaróvári kisállatpraxisomat kiépíteni. Gyógyszerforgalmazással, állateledel és felszerelés kereskedelemmel bővítettem a szolgáltatásaimat. \n 2004-re elkészült a mostani rendelő, ahol ezeket a tevékenységeket egy helyen folytathatom. 2007-től 3 évig kisállatgyógyász szakállatorvosi képzésre jártam. Jelenleg asszisztensemmel közösen a kisállatok állatorvosi ellátását végezzük, és a haszonállat-tartók gyógyszerszükségletét látjuk el."
+	},
+	"services": {
+		"title": "Szolgáltatásaink",
+		"veterinary": {
+			"title": "A rendelő szolgáltatásai",
+			"checkup": {
+				"title": "vizsgálatok",
+				"content": "belgyógyászati \n szemészeti \n allergia vizsgálat \n laborvizsgálatok \n bőrgyógyászati kivizsgálás \n EKG \n röntgen diagnosztika \n ultrahang diagnosztika \n időskori szűrővizsgálatok"
+			},
+			"surgery": {
+				"title": "műtétek",
+				"content": "lágysebészeti műtétek \n ivartalanítás"
+			},
+			"content": "kezelések \n védőoltások \n fogászati ellátás \n ambuláns betegellátás \n féregtelenítés és parazitológiai vizsgálatok \n útlevél kiállítás \n mikrochip beültetés"
+		},
+		"pharmacy": {
+			"title": "A patika gyógyászati termékei",
+			"content": "engedélyköteles gyógyszerforgalmazás kis- és haszonállatok részére \n állatorvosi vények beváltása \n gyógyszerek, vakcinák kiadása \n kullancs- és bolhairtó cseppek, tabletták és nyakörvek \n takarmánykiegészítők, hozamfokozók \n állatorvosi gyógy- és diétás tápok forgalmazása"
+		},
+		"shop": {
+			"title": "A pet shop kínálata",
+			"content": "minőségi állateledelek \n jutalomfalatok, csemegék \n játékok \n felszerelések \n kiképzési eszközök \n fekvőhelyek \n szállító-dobozok \n ketrecek"
+		}
+	},
+	"gallery": "Galéria",
+	"hours": {
+		"title": "Nyitvatartás",
+		"monday": "Hétfő",
+		"friday": "Péntek",
+		"saturday": "Szombat",
+		"surgery": "Műtéti idő",
+		"weekdays": "hétköznap",
+		"appointments": "Bejelentkezés nem szükséges, de ajánlott."
+	},
+	"emergency": {
+		"title": "Állatorvosi ügyelet",
+		"content": "Mosonmagyaróvár járás területén kisállatgyógyászattal foglalkozó állatorvosok ügyelete hétvégén szombat 12 órától az azt követő első munkanap reggel 8 óráig tart. \n Munkaszüneti napokon az ügyelet az előző munkanapon 20 órától az ünnepnap utáni munkanapon reggel 8 óráig tart.",
+		"linkDescription": "Az ügyeletes állatorvos elérhetősége megtalálható a",
+		"link": "Magyar Állatorvosi Kamara honlapján."
+	},
+	"contact": {
+		"title": "Elérhetőségek",
+		"adress": "Cím",
+		"addressCity": "9200 Mosonmagyaróvár",
+		"addressStreet": "Kiserdő út 8.",
+		"phone": "Telefon",
+		"phoneLandline": "Szürke Puli Kft.",
+		"phoneCell": "Dr. Tombácz Nándor"
+	},
+	"impressum": {
+		"title": "Impresszum",
+		"content": "A SZOLGÁLTATÓT A NYILVÁNTARTÁSBA BEJEGYZŐ BÍRÓSÁG ÉS A SZOLGÁLTATÓ NYILVÁNTARTÁSBA VÉTELI SZÁMA: GYŐRI TÖRVÉNYSZÉK CÉGBÍRÓSÁGA CG.08-09-010521 \n A SZOLGÁLTATÓ TEVÉKENYSÉGÉNEK GYAKORLÁSÁT A MAGYAR ÁLLATORVOSI KAMARA GYŐR-MOSON-SOPRON MEGYEI SZERVEZETE (H-9028. GYŐR, RÉGI VESZPRÉMI ÚT 10.) ENGEDÉLYEZTE. PRAXIS ENGEDÉLY SZÁMA: 0877-PE/MÁOK. \n A SZOLGÁLTATÓ A MAGYAR ÁLLATORVOSI KAMARA TAGJA. \n A SZOLGÁLTATÓ ADÓSZÁMA: 12873580-2-08 \n A TÁRHELYET A WEBTAR.HU (9200, MOSONMAGYARÓVÁR, SZENT ISTVÁN KIRÁLY ÚT 60. TEL.: 06/96/566-095, E-MAIL: INFO@WEBTAR.HU) BIZTOSÍTOTTA.",
+		"back": "Vissza"
+	},
+	"info": {
+		"title": "Figyelem!",
+		"content": "Az állatorvosi rendelő 2022. December 27-től 2023. Január 7-ig zárva tart. \n Az esetleges kellemetlenségért elnézést kérünk.",
+		"close": "Bezár"
+	}
+
+}

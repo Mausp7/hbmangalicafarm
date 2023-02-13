@@ -1,0 +1,101 @@
+@use './style/colors.scss';
+
+body,
+body *,
+body *::before,
+body *::after {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	border:0;
+
+	background:transparent;
+	
+	font-family:inherit;
+	text-decoration:none;
+	outline:none;
+}
+
+ol, ul, li {
+	display:block;
+	list-style: none;
+}
+
+
+table {
+	border-spacing:0;
+	border-collapse: collapse;
+}
+
+a img {
+	border: none;
+}
+
+button, a {
+	cursor: pointer;
+
+	color: inherit;
+}
+
+textarea {
+	resize: none;
+}
+
+button, input, textarea, select {
+	appearance: none !important;
+	-webkit-appearance: none !important;
+	
+	border-radius: 0;
+}
+
+body {
+	overflow-x: hidden;
+	
+	background-color: colors.$primary;
+
+	font-family: 'Oxygen', sans-serif;
+	color: colors.$primary;
+
+	h1,	h2, h3 {
+		font-family: 'Cormorant SC', serif;
+		font-weight: 700;
+	}
+
+	h4 {
+		font-family: 'Cormorant', serif;
+	}
+
+	p {
+		font-size: 1.1em;
+		line-height: 1.6em;
+	}
+	
+	#root {
+		max-width: 1400px;
+
+		margin: 0 auto;
+		
+		background-color: colors.$secondary;
+
+		section {
+			h2 {
+				margin-bottom: 50px;
+				
+				font-size: 2.2em;
+				text-align: right;
+				text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+			}
+		}
+
+		.info-container {
+			display: flex;
+			flex-direction: column;
+
+			h4 {
+				font-size: 1.1em;
+				//text-transform: capitalize;
+			}
+		}
+	}
+
+}

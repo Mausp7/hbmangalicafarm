@@ -1,0 +1,50 @@
+@use '../style/colors.scss';
+
+@keyframes panelSwitch {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#services {
+    padding: 80px 20px;
+
+    @media  screen and (max-width: 500px) {
+        padding: 50px 5px;
+    }
+
+    background-color: colors.$secondary;
+
+    color: colors.$primary;
+    background: linear-gradient(colors.$secondary 0%, colors.$light 100%);
+
+    h2 {
+        margin-right: 20px;
+    }
+
+    .tab-container {
+        padding: 5px 10px 5px;
+        background-color: #fff;
+        box-shadow: 5px 5px 10px #00000088;
+    }
+
+    .tabpanel {
+        color: colors.$primary;
+        
+        .img-container {
+            display: flex;
+            align-items: flex-start;
+            min-height: 200px;
+
+            margin-bottom: 7px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        animation: panelSwitch 300ms linear;
+    }
+}

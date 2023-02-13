@@ -1,0 +1,112 @@
+@use '../style/colors.scss';
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+header {
+    position: relative;
+    z-index: 90;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width: 1400px;
+    height: 100vh;
+    
+    padding: 0px 50px;
+    background: linear-gradient(colors.$light 25%, colors.$secondary 80%);
+
+    animation: fadeIn 300ms ease-out;
+    
+    @media screen and (max-width: 650px) {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+
+        padding: 130px 50px 40px;
+    }
+    
+    @media screen and (max-width: 470px) {
+        padding: 130px 30px 40px;
+    }
+    
+    img {
+        width: 40%;
+        min-width: 300px;
+        @media screen and (max-width: 650px) {
+            min-width: 250px;
+        }
+    
+        max-width: 450px;
+        height: auto;
+    }
+
+    div {
+        text-align: right;
+        color: colors.$primary;
+
+        h1 {
+            margin-bottom: 20px;
+
+            font-size: 6em;
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+        }
+        h2 {
+            margin-bottom: 5px;
+
+            font-size: 2.4em;
+            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        h3 {
+            font-size: 2.2em;
+            font-weight: 500;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        @media screen and (max-width: 950px) {
+            h1 {
+                font-size: 3.2em;
+            }
+
+            h2 {
+                font-size: 2em;
+            }
+    
+            h3 {
+                font-size: 1.6em;
+            }
+        }
+
+        @media screen and (max-width: 470px) {
+            h1 {
+                margin-bottom: 10px;
+
+                font-size: 2.8em;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+    
+            h3 {
+                font-size: 1.6em;
+            }
+        }
+
+    }
+
+    .select-lang {
+        position: absolute;
+        top: 80%;
+        right: 50px;
+    }
+}
