@@ -7,9 +7,10 @@
     font-size: 19px;
     text-transform: uppercase;
 
-    transition: background-color 150ms linear;
+    transition: background-color 150ms linear, padding 200ms ease-in-out;
 
     &:hover {
-        background-color: colors.$tertiary;
+        background-color: colors.$tertiary-t;
+        padding: 18px 5px;
     }
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import { HashLink } from "react-router-hash-link";
 import NavLink from "./NavLink";
@@ -10,11 +11,12 @@ import MenuOpenIcon from "@mui/icons-material/MenuOpen";
 import SelectLang from "./SelectLang";
 import languages from "../lang/languages";
 
-import logo from "../media/pic/szurkepuli-logo.png";
+import logo from "../media/pic/HB-Logo-300x209.webp";
 import "./Navbar.scss";
 
 const Navbar = () => {
 	const [menuOn, setMenuOn] = useState(false);
+	const { t } = useTranslation();
 
 	return (
 		<nav>
@@ -26,18 +28,21 @@ const Navbar = () => {
 					<div className="nav-header">
 						<img
 							src={logo}
-							alt="szürke puli logo"
+							alt="HB logo"
 							className="logo"
 						></img>
-						<h2>Szürke Puli</h2>
+						<h2>HB Mangalica Farm</h2>
 					</div>
 				</HashLink>
 
 				<NavLink id="about" />
-				<NavLink id="services" />
-				<NavLink id="emergency" />
-				<NavLink id="hours" />
-				<NavLink id="contact" />
+				<NavLink id="products" />
+				<NavLink id="faq" />
+
+				<HashLink smooth to={`/contact`} className="nav-link">
+					{t(`nav.contact`)}
+				</HashLink>
+
 
 				<SelectLang setMenuOn={setMenuOn} languages={languages} />
 			</div>

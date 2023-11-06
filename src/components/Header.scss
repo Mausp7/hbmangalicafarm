@@ -15,55 +15,45 @@ header {
     z-index: 90;
     
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     max-width: 1400px;
     height: 100vh;
     
     padding: 0px 50px;
-    background: linear-gradient(colors.$light 25%, colors.$secondary 80%);
-
-    animation: fadeIn 300ms ease-out;
+    background-image: linear-gradient(0deg, colors.$primary-t 25%, colors.$secondary-t 80%), url('../media/pic/hero-image.webp');
+    background-size: cover;
+    
+    animation: fadeIn 500ms ease-out;
     
     @media screen and (max-width: 650px) {
         flex-direction: column-reverse;
         justify-content: space-around;
 
-        padding: 130px 50px 40px;
+        padding: 40px 50px 40px;
     }
     
     @media screen and (max-width: 470px) {
-        padding: 130px 30px 40px;
+        padding: 40px 30px 40px;
     }
     
-    img {
-        width: 40%;
-        min-width: 300px;
-        @media screen and (max-width: 650px) {
-            min-width: 250px;
-        }
-    
-        max-width: 450px;
-        height: auto;
-    }
-
     div {
-        text-align: right;
-        color: colors.$primary;
+        text-align: center;
+        color: colors.$light;
 
         h1 {
-            margin-bottom: 20px;
+            margin: 10px;
 
-            font-size: 6em;
-            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+            font-size: 14em;
+            text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.9);
 
         }
         h2 {
-            margin-bottom: 5px;
+            margin: 5px;
 
-            font-size: 2.4em;
-            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+            font-size: 6em;
+            text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.7);
         }
 
         h3 {
@@ -74,27 +64,25 @@ header {
 
         @media screen and (max-width: 950px) {
             h1 {
+                font-size: 12em;
+            }
+
+            h2 {
                 font-size: 3.2em;
             }
-
-            h2 {
-                font-size: 2em;
-            }
     
             h3 {
                 font-size: 1.6em;
             }
         }
 
-        @media screen and (max-width: 470px) {
+        @media screen and (max-width: 500px) {
             h1 {
-                margin-bottom: 10px;
-
-                font-size: 2.8em;
+                font-size: 8em;
             }
 
             h2 {
-                font-size: 1.8em;
+                font-size: 2.4em;
             }
     
             h3 {
@@ -104,9 +92,4 @@ header {
 
     }
 
-    .select-lang {
-        position: absolute;
-        top: 80%;
-        right: 50px;
-    }
 }

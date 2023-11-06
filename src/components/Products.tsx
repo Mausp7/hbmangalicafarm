@@ -5,13 +5,10 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 
-import VeterinaryServices from "./VeterinaryServices";
-import PharmacyServices from "./PharmacyServices";
-import PetShopServices from "./PetShopServices";
+import Product from "./Product";
+import "./Products.scss";
 
-import "./Services.scss";
-
-const Services = () => {
+const Products = () => {
 	const [openTab, setOpenTab] = useState(0);
 	const { t } = useTranslation();
 
@@ -20,8 +17,8 @@ const Services = () => {
 	};
 
 	return (
-		<section id="services">
-			<h2>{t("services.title")}</h2>
+		<section id="products">
+			<h2>{t("products.title")}</h2>
 			<Box className="tab-container" sx={{ width: "100%" }}>
 				<Box sx={{ borderBottom: 1, borderColor: "divider" }}>
 					<Tabs
@@ -29,17 +26,19 @@ const Services = () => {
 						onChange={switchTab}
 						variant="fullWidth"
 					>
-						<Tab label={t("services.veterinary.title")} wrapped />
-						<Tab label={t("services.pharmacy.title")} wrapped />
-						<Tab label={t("services.shop.title")} wrapped />
+						<Tab label={t("products.product1.title")} wrapped />
+						<Tab label={t("products.product2.title")} wrapped />
+						<Tab label={t("products.product3.title")} wrapped />
+						<Tab label={t("products.product4.title")} wrapped />
 					</Tabs>
 				</Box>
-				<VeterinaryServices openTab={openTab} index={0} />
-				<PharmacyServices openTab={openTab} index={1} />
-				<PetShopServices openTab={openTab} index={2} />
+				<Product openTab={openTab} index={0} />
+				<Product openTab={openTab} index={1} />
+				<Product openTab={openTab} index={2} />
+				<Product openTab={openTab} index={3} />
 			</Box>
 		</section>
 	);
 };
 
-export default Services;
+export default Products;

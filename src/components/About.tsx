@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 //import idPic from "../media/pic/doki.jpg";
-import profilePic from "../media/pic/profile.webp";
+import profilePic from "../media/pic/about.webp";
 import "./About.scss";
 
 const About = () => {
@@ -19,7 +19,8 @@ const About = () => {
 					.split("\n")
 					.map(t => (
 						<p key={t}>{t}</p>
-					))}
+					))
+				}
 			</div>
 		</section>
 	);

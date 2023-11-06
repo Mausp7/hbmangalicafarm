@@ -1,41 +1,42 @@
 {
 	"header": {
-		"title": "Szürke Puli",
-		"description": "Városközponti Állatgyógyászati Centrum"
+		"title1": "HB",
+		"title2": "Mangalica Farm",
+		"description": "Gazdaságunk több mint egy évtizede foglalkozik háztáji sertéstenyésztéssel és -feldolgozással. \n A farm Újharangodon helyezkedik el, 6600 négyzetméteren. A Mangalicatenyésztők Országos Egyesülete által akkreditált génmegőrző-állományt tartunk fenn, ami 25 fecskehasú mangalica tenyészkocából, 4 fecskehasú mangalica tenyészkanból és folyamatos szaporulatukból áll. 5 hektárnyi termőfölddel rendelkezünk, ennek termény-hozamából biztosítjuk az állatok ellátását. \n A mangalica állomány klasszikus ridegtartásban nevelkedik, az általunk megtermelt takarmányt fogyasztja, állandó állatorvosi felügyelet és állatjóléti ellenőrzések mellett. Ezek garantálják a kimagasló húsminőséget."
 	},
 	"nav": {
 		"about": "Rólunk",
-		"services": "Szolgáltatások",
-		"hours": "Nyitvatartás",
-		"emergency": "Ügyelet",
+		"products": "Termékeink",
+		"faq": "Gyarkori kérdések",
 		"contact": "Kapcsolat",
 		"language": "Nyelv"
 	},
 	"about": {
-		"title": "Üdvözlöm honlapunkon!",
-		"content": "Dr. Tombácz Nándor vagyok, állatorvos. A diplomámat cum laude minősítéssel szereztem 1984-ben, majd nagyüzemi és háztáji haszonállatokkal kezdtem foglalkozni Pannonhalmán és környékén. \n A rendszerváltás után az állatállomány drasztikus csökkenése következtében áttértem az igazgatási vonalra, a rajkai Állategészségügyi Határállomás vezető főállatorvosa lettem, és 1996-ban közigazgatási szakvizsgát tettem. \n Párhuzamosan elkezdtem a mosonmagyaróvári kisállatpraxisomat kiépíteni. Gyógyszerforgalmazással, állateledel és felszerelés kereskedelemmel bővítettem a szolgáltatásaimat. \n 2004-re elkészült a mostani rendelő, ahol ezeket a tevékenységeket egy helyen folytathatom. 2007-től 3 évig kisállatgyógyász szakállatorvosi képzésre jártam. Jelenleg asszisztensemmel közösen a kisállatok állatorvosi ellátását végezzük, és a haszonállat-tartók gyógyszerszükségletét látjuk el."
+		"title": "A feldolgozás...",
+		"content": "...és a termék-előállítás régi, hagyományos eljárással történik, kézműves módon. Füstölt termékeinket magunk sózzuk, érleljük, pácoljuk és tartósítjuk házi füstölőben, akác, bükk és cseresznyefán. A fűszer alapanyagok nagy része őstermelőktől kerül beszerzésre. \n Munkánk legkedvesebb gyümölcse a Meatbox, ami egy különleges gasztroajándék. Ezen keresztül vásárlóink megismerhetik a HBmangalicaFarm ízvilágát és egyéb tevékenységeit. \n Amikor tervezgettünk, annyit tudtunk, hogy szeretnénk a saját (szabadtartásban, takarmányon nevelt fecskehasú mangalica állományunkból előállított, minőségi) termékeinket szemet gyönyörködtető kivitelezésben kínálni. Arra törekedtünk, hogy egy rendhagyó, értékes, ajándékként adható boxot állítsunk össze. \n Célunk, hogy minél több család asztalára eljuttassuk a magyaros, mangalicás életérzést elegáns formában."
 	},
-	"services": {
-		"title": "Szolgáltatásaink",
-		"veterinary": {
-			"title": "A rendelő szolgáltatásai",
-			"checkup": {
-				"title": "vizsgálatok",
-				"content": "belgyógyászati \n szemészeti \n allergia vizsgálat \n laborvizsgálatok \n bőrgyógyászati kivizsgálás \n EKG \n röntgen diagnosztika \n ultrahang diagnosztika \n időskori szűrővizsgálatok"
-			},
-			"surgery": {
-				"title": "műtétek",
-				"content": "lágysebészeti műtétek \n ivartalanítás"
-			},
-			"content": "kezelések \n védőoltások \n fogászati ellátás \n ambuláns betegellátás \n féregtelenítés és parazitológiai vizsgálatok \n útlevél kiállítás \n mikrochip beültetés"
+	"products": {
+		"title": "Termékeink",
+		"price": "Ár:",
+		"product1": {
+			"title": "Meatbox",
+			"description": "Szeletelt vagy darabolt változatban",
+			"price": "18000 Ft"
 		},
-		"pharmacy": {
-			"title": "A patika gyógyászati termékei",
-			"content": "engedélyköteles gyógyszerforgalmazás kis- és haszonállatok részére \n állatorvosi vények beváltása \n gyógyszerek, vakcinák kiadása \n kullancs- és bolhairtó cseppek, tabletták és nyakörvek \n takarmánykiegészítők, hozamfokozók \n állatorvosi gyógy- és diétás tápok forgalmazása"
+		"product2": {
+			"title": "Füstöltkosár",
+			"description": "Füstöltkosár: füstölt válogatás fa kosárban, egyedi gravírozással",
+			"price": "30000 Ft-tól"
 		},
-		"shop": {
-			"title": "A pet shop kínálata",
-			"content": "minőségi állateledelek \n jutalomfalatok, csemegék \n játékok \n felszerelések \n kiképzési eszközök \n fekvőhelyek \n szállító-dobozok \n ketrecek"
+		"product3": {
+			"title": "Gravírozott vágódeszka",
+			"description": "Füstölt finomságokkal",
+			"price": "12000 Ft-tól"
+		},
+		"product4": {
+			"title": "Minibox",
+			"description": "",
+			"price": "3000 Ft-tól"
 		}
 	},
 	"gallery": "Galéria",
@@ -47,6 +48,29 @@
 		"surgery": "Műtéti idő",
 		"weekdays": "hétköznap",
 		"appointments": "Bejelentkezés nem szükséges, de ajánlott."
+	},
+	"faq": {
+		"title": "Gyakoran kérdezik tőlünk:",
+		"faq0": {
+			"title": "Hogyan rendelhetek a termékekből?",
+			"description": "Telefonon, e-mailben és Facebook-üzenetben is le lehet adni a megrendelést."
+		},
+		"faq1": {
+			"title": "A megrendelés után mennyi idővel készül el a Meatbox?",
+			"description": "Megkönnyítené a dolgunkat, ha 15 nappal azelőtt megkapnánk a megrendelést, mielőtt szükség van rá, így biztosan minden terméket bele tudunk tenni a dobozba. De mindent kérést igyekszünk teljesíteni, akár hamarabb is."
+		},
+		"faq2": {
+			"title": "Hogyan lehet átvenni a Meatboxot?",
+			"description": "Az átvételről a rendelés leadásakor tudunk egyeztetni. Első körben megpróbáljuk mi megoldani a szállítást (Budapestre havi egyszer tudunk általában szállítani)."
+		},
+		"faq3": {
+			"title": "Melyek a fizetés lehetséges módjai?",
+			"description": "Fizetésre készpénzben van lehetőség."
+		},
+		"faq4": {
+			"title": "A díszkerámiára kérhető egyedi feliratot az ár tartalmazza?",
+			"description": "Igen, a díszkerámián lévő felirat benne van az árban."
+		}
 	},
 	"emergency": {
 		"title": "Állatorvosi ügyelet",

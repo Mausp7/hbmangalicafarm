@@ -9,8 +9,8 @@ i18n
     .use(initReactI18next)
     .init({
         fallbackLng: "hu",
-        supportedLngs: ['hu', 'en', 'de'],
-        whitelist: ['hu', 'en', 'de'],
+        supportedLngs: ['hu', /*'en', 'de'*/],
+        whitelist: ['hu', /*'en', 'de'*/],
         detection: {
             order: [ 'path', 'cookie', 'localStorage', 'htmlTag', 'subdomain'],
             caches: ['localStorage'],
