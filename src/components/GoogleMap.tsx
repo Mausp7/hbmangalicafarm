@@ -1,6 +1,6 @@
-import "./Map.scss";
+import "./GoogleMap.scss";
 
-const Map = () => {
+const GoogleMap = () => {
 	return (
 		<div id="google-map">
 			<iframe
@@ -17,4 +17,4 @@ const Map = () => {
 	);
 };
 
-export default Map;
+export default GoogleMap;

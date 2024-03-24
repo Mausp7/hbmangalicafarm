@@ -39,6 +39,10 @@ const Navbar = () => {
 				<NavLink id="products" />
 				<NavLink id="faq" />
 
+				<HashLink smooth to={`/tracking`} className="nav-link">
+					{t(`nav.tracking`)}
+				</HashLink>
+
 				<HashLink smooth to={`/contact`} className="nav-link">
 					{t(`nav.contact`)}
 				</HashLink>

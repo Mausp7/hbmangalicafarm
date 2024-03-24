@@ -1,18 +1,24 @@
 import { useState } from "react";
-import sendEmail from "../api/sendInBlueApi";
+import sendEmail from "../api/mailApi";
 import Toast from "../components/Toast";
 
 import { Button, TextField } from "@mui/material";
 import LoadingButton from "@mui/lab/LoadingButton";
 
 import EmailIcon from "@mui/icons-material/Email";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import PhonelinkRingIcon from '@mui/icons-material/PhonelinkRing';
+import ChatIcon from '@mui/icons-material/Chat';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import SendIcon from "@mui/icons-material/Send";
 
 import "./Contact.scss";
+import GoogleMap from "../components/GoogleMap";
+import {useTranslation} from "react-i18next";
 
 const Contact = () => {
+	const { t } = useTranslation();
+
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [email2, setEmail2] = useState("");
@@ -31,14 +37,16 @@ const Contact = () => {
 		event.preventDefault();
 		setSending(true);
 		const response = await sendEmail({ sender: name, address: email, text });
-		if (response.status !== 201) return setSending(false);
-
-		setName("");
-		setEmail("");
-		setEmail2("");
-		setText("");
-		setSending(false);
-		setToast(true);
+		if (response.status !== 201) {
+			setSending(false);
+		} else {
+			setToast(true);
+			setName("");
+			setEmail("");
+			setEmail2("");
+			setText("");
+			setSending(false);
+		}
 	};
 
 	return (
@@ -57,8 +65,8 @@ const Contact = () => {
 							color="secondary"
 							required
 							fullWidth
-							label="Name"
-							placeholder="How should I call you?"
+							label={t("contact.form.name.label")}
+							placeholder={t("contact.form.name.placeholder")}
 							value={name}
 							onChange={(event) => setName(event.target.value)}
 							error={name !== "" && name.length < 2}
@@ -69,8 +77,8 @@ const Contact = () => {
 							color="secondary"
 							required
 							fullWidth
-							label="E-mail"
-							placeholder="example@email.com"
+							label={t("contact.form.email.label")}
+							placeholder={t("contact.form.email.placeholder")}
 							value={email}
 							onChange={(event) => setEmail(event.target.value)}
 							error={email !== "" && !isEmail(email)}
@@ -81,8 +89,8 @@ const Contact = () => {
 							color="secondary"
 							required
 							fullWidth
-							label="Confirm E-mail"
-							placeholder="Must be the same as above."
+							label={t("contact.form.email2.label")}
+							placeholder={t("contact.form.email2.placeholder")}
 							value={email2}
 							onChange={(event) => setEmail2(event.target.value)}
 							error={email2 !== "" && email !== email2}
@@ -95,15 +103,15 @@ const Contact = () => {
 							fullWidth
 							color="secondary"
 							required
-							label="Message"
-							placeholder="Write your message here..."
+							label={t("contact.form.message.label")}
+							placeholder={t("contact.form.message.placeholder")}
 							value={text}
 							onChange={(event) => setText(event.target.value)}
 							error={text.length > 500}
 							helperText={
 								text.length <= 500
-									? `${500 - text.length} characters left.`
-									: "Message too long."
+									? `${500 - text.length} ${t("contact.form.message.charsLeft")}`
+									: t("contact.form.message.tooLong")
 							}
 						/>
 
@@ -123,7 +131,7 @@ const Contact = () => {
 							}
 							loading={sending}
 						>
-							Send
+							{t("contact.form.submit")}
 						</LoadingButton>
 					</form>
 					<div className="contact-btn-container">
@@ -131,45 +139,95 @@ const Contact = () => {
 							variant="contained"
 							color="secondary"
 							size="large"
-							startIcon={<LinkedInIcon />}
+							startIcon={<PhonelinkRingIcon />}
 							onClick={() =>
 								window.open(
-									"https://www.linkedin.com/in/aron-tombacz/",
+									"tel: +36 20 335 4460",
 									"_blank"
 								)
 							}
 						>
-							LinkedIn
+							+36 20 335 4460
 						</Button>
-
 						<Button
 							variant="contained"
 							color="secondary"
 							size="large"
-							startIcon={<GitHubIcon />}
-							onClick={() => window.open("https://github.com/Mausp7", "_blank")}
+							startIcon={<EmailIcon />}
+							onClick={() =>
+								window.open(
+									"mailto:hbmangalicafarm@gmail.com",
+									"_blank"
+								)
+							}
 						>
-							GitHub
+							hbmangalicafarm@gmail.com
+						</Button>
+						<Button
+							variant="contained"
+							color="secondary"
+							size="large"
+							startIcon={<EmailIcon />}
+							onClick={() =>
+								window.open(
+									"mailto:info@hbmangalicafarm.hu",
+									"_blank"
+								)
+							}
+						>
+							info@hbmangalicafarm.hu
+						</Button>
+						<Button
+							variant="contained"
+							color="secondary"
+							size="large"
+							startIcon={<ChatIcon />}
+							onClick={() =>
+								window.open(
+									"https://www.messenger.com/t/hbmangalicafarm",
+									"_blank"
+								)
+							}
+						>
+							Facebook Messenger
+						</Button>
+						<Button
+							variant="contained"
+							color="secondary"
+							size="large"
+							startIcon={<FacebookIcon />}
+							onClick={() =>
+								window.open(
+									"https://www.facebook.com/hbmangalicafarm",
+									"_blank"
+								)
+							}
+						>
+							facebook.com/hbmangalicafarm
+						</Button>
+						<Button
+							variant="contained"
+							color="secondary"
+							size="large"
+							startIcon={<InstagramIcon />}
+							onClick={() =>
+								window.open(
+									"https://www.instagram.com/hbmangalicafarm",
+									"_blank"
+								)
+							}
+						>
+							instagram.com/hbmangalicafarm
 						</Button>
 
-						<a href="mailto:aron.tombacz@yahoo.com">
-							<Button
-								variant="contained"
-								color="secondary"
-								size="large"
-								fullWidth
-								startIcon={<EmailIcon />}
-							>
-								E-mail
-							</Button>
-						</a>
 					</div>
 				</div>
 				<Toast
 					open={toast}
 					onClose={() => setToast(false)}
-					message={"Thank you for your message. We'll get in touch shortly."}
+					message={t("contact.form.success")}
 				/>
+				<GoogleMap />
 			</main>
 		</>
 	);

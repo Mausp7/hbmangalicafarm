@@ -9,7 +9,7 @@ import Hours from "../components/Hours";
 import Emergency from "../components/Emergency";
 import Contact from "../components/Contact";
 import Faq from "../components/Faq";
-import Map from "../components/Map";
+import GoogleMap from "../components/GoogleMap";
 
 const Home = () => {
 	return (
@@ -19,13 +19,7 @@ const Home = () => {
 			<About />
 			<Products />
 			<Gallery />
-			<Grid container spacing={{ xs: 0 }}>
-				<Emergency />
-				<Hours />
-				<Contact />
-			</Grid>
 			<Faq />
-			<Map />
 		</>
 	);
 };

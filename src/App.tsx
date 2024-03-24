@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Impressum from "./pages/Impressum";
 import Footer from "./components/Footer";
+import Tracking from "./pages/Tracking";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 				<Navbar />
 				<Routes>
 					<Route path="/" element={<Home />} />
+					<Route path="/tracking" element={<Tracking />} />
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/impressum" element={<Impressum />} />
 				</Routes>
