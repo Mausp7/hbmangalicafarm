@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hbmangalicafarm/static/css/main.d89afe3c.css",
-    "main.js": "/hbmangalicafarm/static/js/main.d32add13.js",
+    "main.js": "/hbmangalicafarm/static/js/main.823a15bd.js",
     "static/js/453.ef7a42e8.chunk.js": "/hbmangalicafarm/static/js/453.ef7a42e8.chunk.js",
     "static/media/3.jpg": "/hbmangalicafarm/static/media/3.80b638eda81aff6e3572.jpg",
     "static/media/5.jpg": "/hbmangalicafarm/static/media/5.39e245d5bc850846d68d.jpg",
@@ -18,11 +18,11 @@
     "index.html": "/hbmangalicafarm/index.html",
     "static/media/getFetch.cjs": "/hbmangalicafarm/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.d89afe3c.css.map": "/hbmangalicafarm/static/css/main.d89afe3c.css.map",
-    "main.d32add13.js.map": "/hbmangalicafarm/static/js/main.d32add13.js.map",
+    "main.823a15bd.js.map": "/hbmangalicafarm/static/js/main.823a15bd.js.map",
     "453.ef7a42e8.chunk.js.map": "/hbmangalicafarm/static/js/453.ef7a42e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d89afe3c.css",
-    "static/js/main.d32add13.js"
+    "static/js/main.823a15bd.js"
   ]
 }
