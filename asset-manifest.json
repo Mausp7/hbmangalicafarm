@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/hbmangalicafarm/static/css/main.d89afe3c.css",
+    "main.js": "/hbmangalicafarm/static/js/main.fc69be9c.js",
+    "static/js/453.ef7a42e8.chunk.js": "/hbmangalicafarm/static/js/453.ef7a42e8.chunk.js",
+    "static/media/3.jpg": "/hbmangalicafarm/static/media/3.80b638eda81aff6e3572.jpg",
+    "static/media/5.jpg": "/hbmangalicafarm/static/media/5.39e245d5bc850846d68d.jpg",
+    "static/media/4.jpg": "/hbmangalicafarm/static/media/4.0bec5a1fd80128143429.jpg",
+    "static/media/hero-image.webp": "/hbmangalicafarm/static/media/hero-image.0e415751bdbf3579f2c3.webp",
+    "static/media/1.jpg": "/hbmangalicafarm/static/media/1.5daf1175e1d5357da752.jpg",
+    "static/media/2.jpg": "/hbmangalicafarm/static/media/2.4d215aa1e37f3c351331.jpg",
+    "static/media/checkup.webp": "/hbmangalicafarm/static/media/checkup.7e272e7a0e66a37939fc.webp",
+    "static/media/about.webp": "/hbmangalicafarm/static/media/about.635e5232b2cab3f4cf07.webp",
+    "static/media/HB-Logo-300x209.webp": "/hbmangalicafarm/static/media/HB-Logo-300x209.10bb2c3cdad7465cfdd0.webp",
+    "static/media/revicons.eot": "/hbmangalicafarm/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/hbmangalicafarm/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/hbmangalicafarm/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/hbmangalicafarm/index.html",
+    "static/media/getFetch.cjs": "/hbmangalicafarm/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.d89afe3c.css.map": "/hbmangalicafarm/static/css/main.d89afe3c.css.map",
+    "main.fc69be9c.js.map": "/hbmangalicafarm/static/js/main.fc69be9c.js.map",
+    "453.ef7a42e8.chunk.js.map": "/hbmangalicafarm/static/js/453.ef7a42e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d89afe3c.css",
+    "static/js/main.fc69be9c.js"
+  ]
+}

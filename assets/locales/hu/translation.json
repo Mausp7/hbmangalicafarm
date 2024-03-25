@@ -1,0 +1,140 @@
+{
+  "header": {
+	"title1": "HB",
+	"title2": "Mangalica Farm",
+	"description": "Gazdaságunk több mint egy évtizede foglalkozik háztáji sertéstenyésztéssel és -feldolgozással. \n A farm Újharangodon helyezkedik el, 6600 négyzetméteren. A Mangalicatenyésztők Országos Egyesülete által akkreditált génmegőrző-állományt tartunk fenn, ami 25 fecskehasú mangalica tenyészkocából, 4 fecskehasú mangalica tenyészkanból és folyamatos szaporulatukból áll. 5 hektárnyi termőfölddel rendelkezünk, ennek termény-hozamából biztosítjuk az állatok ellátását. \n A mangalica állomány klasszikus ridegtartásban nevelkedik, az általunk megtermelt takarmányt fogyasztja, állandó állatorvosi felügyelet és állatjóléti ellenőrzések mellett. Ezek garantálják a kimagasló húsminőséget."
+  },
+  "nav": {
+	"about": "Rólunk",
+	"products": "Termékeink",
+	"faq": "Gyarkori kérdések",
+	"tracking": "Nyomonkövetés",
+	"contact": "Kapcsolat",
+	"language": "Nyelv"
+  },
+  "about": {
+	"title": "A feldolgozás...",
+	"content": "...és a termék-előállítás régi, hagyományos eljárással történik, kézműves módon. Füstölt termékeinket magunk sózzuk, érleljük, pácoljuk és tartósítjuk házi füstölőben, akác, bükk és cseresznyefán. A fűszer alapanyagok nagy része őstermelőktől kerül beszerzésre. \n Munkánk legkedvesebb gyümölcse a Meatbox, ami egy különleges gasztroajándék. Ezen keresztül vásárlóink megismerhetik a HBmangalicaFarm ízvilágát és egyéb tevékenységeit. \n Amikor tervezgettünk, annyit tudtunk, hogy szeretnénk a saját (szabadtartásban, takarmányon nevelt fecskehasú mangalica állományunkból előállított, minőségi) termékeinket szemet gyönyörködtető kivitelezésben kínálni. Arra törekedtünk, hogy egy rendhagyó, értékes, ajándékként adható boxot állítsunk össze. \n Célunk, hogy minél több család asztalára eljuttassuk a magyaros, mangalicás életérzést elegáns formában."
+  },
+  "products": {
+	"title": "Termékeink",
+	"price": "Ár:",
+	"product1": {
+	  "title": "Meatbox",
+	  "description": "Szeletelt vagy darabolt változatban",
+	  "price": "18000 Ft"
+	},
+	"product2": {
+	  "title": "Füstöltkosár",
+	  "description": "Füstöltkosár: füstölt válogatás fa kosárban, egyedi gravírozással",
+	  "price": "30000 Ft-tól"
+	},
+	"product3": {
+	  "title": "Gravírozott vágódeszka",
+	  "description": "Füstölt finomságokkal",
+	  "price": "12000 Ft-tól"
+	},
+	"product4": {
+	  "title": "Minibox",
+	  "description": "",
+	  "price": "3000 Ft-tól"
+	}
+  },
+  "gallery": "Galéria",
+  "hours": {
+	"title": "Nyitvatartás",
+	"monday": "Hétfő",
+	"friday": "Péntek",
+	"saturday": "Szombat",
+	"surgery": "Műtéti idő",
+	"weekdays": "hétköznap",
+	"appointments": "Bejelentkezés nem szükséges, de ajánlott."
+  },
+  "faq": {
+	"title": "Gyakoran kérdezik tőlünk:",
+	"faq0": {
+	  "title": "Hogyan rendelhetek a termékekből?",
+	  "description": "Telefonon, e-mailben és Facebook-üzenetben is le lehet adni a megrendelést."
+	},
+	"faq1": {
+	  "title": "A megrendelés után mennyi idővel készül el a Meatbox?",
+	  "description": "Megkönnyítené a dolgunkat, ha 15 nappal azelőtt megkapnánk a megrendelést, mielőtt szükség van rá, így biztosan minden terméket bele tudunk tenni a dobozba. De mindent kérést igyekszünk teljesíteni, akár hamarabb is."
+	},
+	"faq2": {
+	  "title": "Hogyan lehet átvenni a Meatboxot?",
+	  "description": "Az átvételről a rendelés leadásakor tudunk egyeztetni. Első körben megpróbáljuk mi megoldani a szállítást (Budapestre havi egyszer tudunk általában szállítani)."
+	},
+	"faq3": {
+	  "title": "Melyek a fizetés lehetséges módjai?",
+	  "description": "Fizetésre készpénzben van lehetőség."
+	},
+	"faq4": {
+	  "title": "A díszkerámiára kérhető egyedi feliratot az ár tartalmazza?",
+	  "description": "Igen, a díszkerámián lévő felirat benne van az árban."
+	}
+  },
+  "emergency": {
+	"title": "Állatorvosi ügyelet",
+	"content": "Mosonmagyaróvár járás területén kisállatgyógyászattal foglalkozó állatorvosok ügyelete hétvégén szombat 12 órától az azt követő első munkanap reggel 8 óráig tart. \n Munkaszüneti napokon az ügyelet az előző munkanapon 20 órától az ünnepnap utáni munkanapon reggel 8 óráig tart.",
+	"linkDescription": "Az ügyeletes állatorvos elérhetősége megtalálható a",
+	"link": "Magyar Állatorvosi Kamara honlapján."
+  },
+  "impressum": {
+	"title": "Impresszum",
+	"content": "A SZOLGÁLTATÓT A NYILVÁNTARTÁSBA BEJEGYZŐ BÍRÓSÁG ÉS A SZOLGÁLTATÓ NYILVÁNTARTÁSBA VÉTELI SZÁMA: GYŐRI TÖRVÉNYSZÉK CÉGBÍRÓSÁGA CG.08-09-010521 \n A SZOLGÁLTATÓ TEVÉKENYSÉGÉNEK GYAKORLÁSÁT A MAGYAR ÁLLATORVOSI KAMARA GYŐR-MOSON-SOPRON MEGYEI SZERVEZETE (H-9028. GYŐR, RÉGI VESZPRÉMI ÚT 10.) ENGEDÉLYEZTE. PRAXIS ENGEDÉLY SZÁMA: 0877-PE/MÁOK. \n A SZOLGÁLTATÓ A MAGYAR ÁLLATORVOSI KAMARA TAGJA. \n A SZOLGÁLTATÓ ADÓSZÁMA: 12873580-2-08 \n A TÁRHELYET A WEBTAR.HU (9200, MOSONMAGYARÓVÁR, SZENT ISTVÁN KIRÁLY ÚT 60. TEL.: 06/96/566-095, E-MAIL: INFO@WEBTAR.HU) BIZTOSÍTOTTA.",
+	"back": "Vissza"
+  },
+  "info": {
+	"title": "Figyelem!",
+	"content": "Az állatorvosi rendelő 2022. December 27-től 2023. Január 7-ig zárva tart. \n Az esetleges kellemetlenségért elnézést kérünk.",
+	"close": "Bezár"
+  },
+  "tracking": {
+	"title": "Nyomonkövetési dokumentum",
+	"description": "Tenyésztett tisztavérű fecskehasú mangalicára a mangalica tenyésztő által előállított késztermék nyilatkozathoz.",
+	"search": {
+	  "label": "Azonosítószám:",
+	  "button": "Keresés"
+	},
+	"uniqueIDs": "Egyedi azonosítók",
+	"uniqueID": "Egyedi azonosító",
+	"date": "Vágás időpontja",
+	"place": "Vágás helye",
+	"weight": "Vágásra szánt állat(ok) élő testömege",
+	"weightUnit": "kg",
+	"age": "Levágott állatok kora",
+	"ageUnit": "hónap",
+	"slaughtered": "Levágott félsertés",
+	"bloodTestDate": "Vérvétel időpontja",
+	"bloodTestResult": "Vérvétel eredménye",
+	"open": "Megnyitás",
+	"close": "Bezár"
+  },
+  "contact": {
+	"title": "Kapcsolat!",
+	"form": {
+	  "name": {
+		"label": "Név:",
+		"placeholder": "Hogy szólíthatunk?"
+	  },
+	  "email": {
+		"label": "E-mail:",
+		"placeholder": "minta@mail.hu"
+	  },
+	  "email2": {
+		"label": "E-mail megerősítése:",
+		"placeholder": "Meg kell egyeznie az előzővel."
+	  },
+	  "message": {
+		"label": "Üzenet:",
+		"placeholder": "Ide írhatod üzeneted...",
+		"charsLeft": "karakter maradt.",
+		"tooLong": "Túl hosszú az  üzenet!"
+	  },
+	  "submit": "Küldés",
+	  "success": "Köszönjük az üzeneted!"
+	}
+  },
+  "content": "Az állatorvosi rendelő 2022. December 27-től 2023. Január 7-ig zárva tart. \n Az esetleges kellemetlenségért elnézést kérünk.",
+  "close": "Bezár"
+}

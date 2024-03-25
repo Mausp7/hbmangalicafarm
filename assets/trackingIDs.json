@@ -1,0 +1,46 @@
+[
+	{
+		"id": 8940750032,
+		"dateOfSlaughter": "2023.04.03",
+		"placeOfSlaughter": "3565 Tiszalúc, vágóhíd ut 1. Vágóhíd",
+		"weight": 100,
+		"age": 12,
+		"amount": 2,
+		"weightProPiece": 82.5,
+		"bloodTestDate": "2023.03.27",
+		"bloodTestResult": "ÁDI/2023/00230/927/EK-FRBRDP"
+	},
+	{
+		"id": 8940750034,
+		"dateOfSlaughter": "2023.04.04",
+		"placeOfSlaughter": "3565 Tiszalúc, vágóhíd ut 1. Vágóhíd",
+		"weight": 85,
+		"age": 13,
+		"amount": 1,
+		"weightProPiece": 85.5,
+		"bloodTestDate": "2023.03.29",
+		"bloodTestResult": "ÁDI/2023/00233/927/EK-FRBRDP"
+	},
+	{
+		"id": 8940750054,
+		"dateOfSlaughter": "2023.03.23",
+		"placeOfSlaughter": "3565 Tiszalúc, vágóhíd ut 1. Vágóhíd",
+		"weight": 110,
+		"age": 15,
+		"amount": 3,
+		"weightProPiece": 82.5,
+		"bloodTestDate": "2023.03.17",
+		"bloodTestResult": "ÁDI/2023/00232/927/EK-FRBRDP"
+	},
+	{
+		"id": 8940750021,
+		"dateOfSlaughter": "2023.05.03",
+		"placeOfSlaughter": "3565 Tiszalúc, vágóhíd ut 1. Vágóhíd",
+		"weight": 99,
+		"age": 11,
+		"amount": 2,
+		"weightProPiece": 87.5,
+		"bloodTestDate": "2023.05.27",
+		"bloodTestResult": "ÁDI/2023/00231/927/EK-FRBRDP"
+	}
+]

@@ -1,0 +1,76 @@
+{
+	"header": {
+		"title": "Szürke Puli",
+		"description": "Veterinärmedizinisches Zentrum"
+	},
+	"nav": {
+		"about": "Über uns",
+		"services": "Dienstleistungen",
+		"hours": "Öffnungszeiten",
+		"emergency": "Notdienst",
+		"contact": "Kotakt",
+		"language": "Sprache"
+	},
+	"about": {
+		"title": "Willkommen auf unserer Website!",
+		"content": "Ich bin Dr. Nándor Tombácz , Tierartzt. In 1984 habe ich an der Veterinärmedizinschen Universität cum laude diplomiert, dann habe die Nutztiere in den Haus- und Großwirtschaften in dem Bezirk Pannonhalma heilen angefangen. \n Nachdem der Regimewechsel in Ungarn, weil der Viehbestad drastish zurückgegagnen ist, habe ich richtung die Verwaltung gewechselt. So bin ich der Hauptierartzt der Grenzstation Rajka geworden, und in 1996 habe eine Ausbildung aus Verwaltungsdienst absolviert. \n Paralell habe ich eine Haustierpraxis in Mosonmagyaróvár gestartet, und später die mit Medizin-, Ausrüstung- und Futterhandlung erweitert. \n Das neue Veterinärmedizinisches Zentrum ist in 2004 aufgebaut geworden, so danach habe ich diese Tätigkeiten unter dem gleichen Dach weitergemacht. In 2007 habe ich auch eine dreijährige Fachartztausbildung aus Kleintierheilung gestartet. Momentan mit meiner Assistentin verpflegen wir medizinisch für die Haustiere und kümmern wir uns für die Medikamentenversorgung der Nutztiere."
+	},
+	"services": {
+		"title": "Dienstleistungen",
+		"veterinary": {
+			"title": "Dienstleistungen in unserem Praxis",
+			"checkup": {
+				"title": "Untersuchungen",
+				"content": "internistische Untersuchung \n Augen Untersuchung \n dermatologische Untersuchung \n radiologische Untersuchung \n Röntgen, EKG und Ultraschall \n Allergietest \n Laborwerte"
+			},
+			"surgery": {
+				"title": "Operationen",
+				"content": "Bauchchirurgie \n Kastration"
+			},
+			"content": "Generaluntersuchungen \n consultations \n ambulatorische Behandlungen aller Art \n Impfungen \n Zahpflege \n Entwürmung und parasitologische Test \n Impfpass Ausstellung \n Chip Implantation"
+		},
+		"pharmacy": {
+			"title": "Produkten aus unserer Apotheke",
+			"content": "Gesetzlich erlaubte Medikamentenverkauf für Haus- und Nutztiere \n Einlösen von tierärtzlichen Rezepten \n Medikamenten- und Impfstoffverkauf \n ectoparasiticide drops, pills and colars \n Vitamine, Leistungssteigerungs- und Futterergänzungsmittel \n Spezial- und Diätfutter Verkauf"
+		},
+		"shop": {
+			"title": "Pet Shop Angebote",
+			"content": "Qualitätsfutter \n Belohnungsstücken, Leckerbissen \n Spielzeuge \n Ausstattung \n Ausbildungsausrüstung \n Liegeplätze \n Käfige \n Transportboxen"
+		}
+	},
+	"hours": {
+		"title": "Öffnungszeiten",
+		"monday": "Montag",
+		"friday": "Freitag",
+		"saturday": "Samstag",
+		"surgery": "Operationszeit (Praxis geschlossen)",
+		"weekdays": "Wochentage",
+		"appointments": "Anmeldung ist nicht notwendig, jedoch empfehlenswert."
+	},
+	"gallery": "Galerie",
+	"emergency": {
+		"title": "Notdienst",
+		"content": "An den Wochenenden es gibt eine tierärztliche Notdienst im Bezirk Mosonmagyaróvár ab 12:00 am Samstag bis 8:00 an dem volgenden Arbeitstag. \n An den Urlaubstagen ab 20:00 an dem vorhergehenden Arbeitstag bis 8:00 an dem volgenden Arbeitstag.",
+		"linkDescription": "Die Name und Telefonnummer von diesem Tierarzt kann man auf dem Website des",
+		"link": "Ungarischen Tierärztekammers."
+	},
+	"contact": {
+		"title": "Kontakt",
+		"adress": "Adresse",
+		"addressCity": "9200 Mosonmagyaróvár",
+		"addressStreet": "Kiserdő str. 8.",
+		"phone": "Telefon",
+		"phoneLandline": "Szürke Puli Gmbh.",
+		"phoneCell": "Dr. Nándor Tombácz"
+	},
+	"impressum": {
+		"title": "Impressum",
+		"content": "A SZOLGÁLTATÓT A NYILVÁNTARTÁSBA BEJEGYZŐ BÍRÓSÁG ÉS A SZOLGÁLTATÓ NYILVÁNTARTÁSBA VÉTELI SZÁMA: GYŐRI TÖRVÉNYSZÉK CÉGBÍRÓSÁGA CG.08-09-010521 \n A SZOLGÁLTATÓ TEVÉKENYSÉGÉNEK GYAKORLÁSÁT A MAGYAR ÁLLATORVOSI KAMARA GYŐR-MOSON-SOPRON MEGYEI SZERVEZETE (H-9028. GYŐR, RÉGI VESZPRÉMI ÚT 10.) ENGEDÉLYEZTE. PRAXIS ENGEDÉLY SZÁMA: 0877-PE/MÁOK. \n A SZOLGÁLTATÓ A MAGYAR ÁLLATORVOSI KAMARA TAGJA. \n A SZOLGÁLTATÓ ADÓSZÁMA: 12873580-2-08 \n A TÁRHELYET A WEBTAR.HU (9200, MOSONMAGYARÓVÁR, SZENT ISTVÁN KIRÁLY ÚT 60. TEL.: 06/96/566-095, E-MAIL: INFO@WEBTAR.HU) BIZTOSÍTOTTA.",
+		"back": "Zurück"
+	},
+	"info": {
+		"title": "Achtung!",
+		"content": "Das Veterinärmedizinisches Zentrum wird ab 27. Dezember 2022. bis 7. Januar 2023. geschlossen. \n Wir bitten um Entschuldigung für die Unannehmlichkeit.",
+		"close": "Schliessen"
+	}
+}
