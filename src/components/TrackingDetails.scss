@@ -1,0 +1,19 @@
+@use '../style/colors.scss';
+
+div.trackingDetails {
+    max-width: 500px;
+    padding: 20px;
+
+    h3 {
+        padding: 30px 0px 20px;
+
+        font-size: 1.6em;
+        text-align: left;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+
+        @media screen and (max-width: 650px) {
+            font-size: 1.4em;
+        }
+    }
+
+}

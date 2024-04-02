@@ -1,7 +1,6 @@
 {
   "name": "hbMangalicaFarm",
   "version": "1.0.0",
-  "homepage": "https://mausp7.github.io/hbmangalicafarm",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -19,7 +18,7 @@
     "axios": "^1.3.2",
     "i18next": "^21.9.1",
     "i18next-browser-languagedetector": "^6.1.5",
-    "i18next-http-backend": "^1.4.1",
+    "i18next-http-backend": "^2.5.0",
     "install": "^0.13.0",
     "npm": "^8.19.2",
     "react": "^18.2.0",

@@ -35,7 +35,7 @@ const Navbar = () => {
 					</div>
 				</HashLink>
 
-				<NavLink id="about" />
+				{/* <NavLink id="about" /> */}
 				<NavLink id="products" />
 				<NavLink id="faq" />
 

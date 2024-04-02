@@ -92,8 +92,10 @@
   "tracking": {
 	"title": "Nyomonkövetési dokumentum",
 	"description": "Tenyésztett tisztavérű fecskehasú mangalicára a mangalica tenyésztő által előállított késztermék nyilatkozathoz.",
+	"loading": "Hiba: a kért információ nem található",
 	"search": {
-	  "label": "Azonosítószám:",
+	  "label": "Azonosítószám keresés",
+	  "placeholder": "Max. 10 szám",
 	  "button": "Keresés"
 	},
 	"uniqueIDs": "Egyedi azonosítók",
