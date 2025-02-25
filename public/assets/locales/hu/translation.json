@@ -7,7 +7,7 @@
   "nav": {
 	"about": "Rólunk",
 	"products": "Termékeink",
-	"faq": "Gyarkori kérdések",
+	"faq": "Információ",
 	"tracking": "Nyomonkövetés",
 	"contact": "Kapcsolat",
 	"language": "Nyelv"
@@ -18,6 +18,7 @@
   },
   "products": {
 	"title": "Termékeink",
+	"description": "Termékeinket saját, újonnan kialakított feldolgozónkban készíthetjük!",
 	"price": "Ár:",
 	"product1": {
 	  "title": "Meatbox",
@@ -51,7 +52,7 @@
 	"appointments": "Bejelentkezés nem szükséges, de ajánlott."
   },
   "faq": {
-	"title": "Gyakoran kérdezik tőlünk:",
+	"title": "Gyakoran kérdezik tőlünk",
 	"faq0": {
 	  "title": "Hogyan rendelhetek a termékekből?",
 	  "description": "Telefonon, e-mailben és Facebook-üzenetben is le lehet adni a megrendelést."
@@ -73,15 +74,25 @@
 	  "description": "Igen, a díszkerámián lévő felirat benne van az árban."
 	}
   },
-  "emergency": {
-	"title": "Állatorvosi ügyelet",
-	"content": "Mosonmagyaróvár járás területén kisállatgyógyászattal foglalkozó állatorvosok ügyelete hétvégén szombat 12 órától az azt követő első munkanap reggel 8 óráig tart. \n Munkaszüneti napokon az ügyelet az előző munkanapon 20 órától az ünnepnap utáni munkanapon reggel 8 óráig tart.",
-	"linkDescription": "Az ügyeletes állatorvos elérhetősége megtalálható a",
-	"link": "Magyar Állatorvosi Kamara honlapján."
-  },
   "impressum": {
-	"title": "Impresszum",
-	"content": "A SZOLGÁLTATÓT A NYILVÁNTARTÁSBA BEJEGYZŐ BÍRÓSÁG ÉS A SZOLGÁLTATÓ NYILVÁNTARTÁSBA VÉTELI SZÁMA: GYŐRI TÖRVÉNYSZÉK CÉGBÍRÓSÁGA CG.08-09-010521 \n A SZOLGÁLTATÓ TEVÉKENYSÉGÉNEK GYAKORLÁSÁT A MAGYAR ÁLLATORVOSI KAMARA GYŐR-MOSON-SOPRON MEGYEI SZERVEZETE (H-9028. GYŐR, RÉGI VESZPRÉMI ÚT 10.) ENGEDÉLYEZTE. PRAXIS ENGEDÉLY SZÁMA: 0877-PE/MÁOK. \n A SZOLGÁLTATÓ A MAGYAR ÁLLATORVOSI KAMARA TAGJA. \n A SZOLGÁLTATÓ ADÓSZÁMA: 12873580-2-08 \n A TÁRHELYET A WEBTAR.HU (9200, MOSONMAGYARÓVÁR, SZENT ISTVÁN KIRÁLY ÚT 60. TEL.: 06/96/566-095, E-MAIL: INFO@WEBTAR.HU) BIZTOSÍTOTTA.",
+	"title": "Adatkezelési tájékoztató",
+	"header1": "Kik vagyunk:",
+	"name": "Név: Hornyák Tamás – egyéni vállalkozó",
+	"address": "Telephely: 3923 Gesztely, Béke utca 13-15.",
+	"tax": "Adószám: 76249640-1-25",
+	"licence": "Nyilvántartási szám: 41135481",
+	"phone": "Telefonszám: 06 20 335 4460",
+	"email": "Email cím: hbmangalicafarm@gmail.com",
+	"website": "Weboldalunk címe: https://hbmangalicafarm.hu",
+	"header2": "Melyek azok a személyes adatok, amiket gyűjtünk és milyen céllal gyűjtjük ezeket:",
+	"description2": "A kapcsolatfelvételi űrlapon megadott személyes adatokat a kapcsolattartás céljából mentjük és 30 napig megőrizzük, utána töröljük.\nEzeket az adatokat más célból nem használjuk fel és harmadik félnek nem adjuk ki.\nIlyen adatok a név, telefonszám, e-mail cím.",
+	"header3": "Más honlapokról származó beágyazott tartalmak:",
+	"description3": "A honlapon elérhető bejegyzések külső forrásból származó beágyazott tartalmakat (pl. videók, képek, cikkek stb.) használhatnak. A külső forrásból származó beágyazott tartalmak pontosan úgy viselkednek, mintha meglátogattunk volna egy másik honlapot.\n\nEzek a webhelyek lehetséges, hogy adatot gyűjtenek a látogatókról, sütiket vagy harmadik féltől származó követőkódot használnak, figyelik a beágyazott tartalommal kapcsolatos felhasználói viselkedést, ha rendelkezünk felhasználói fiókkal és be vagyunk jelentkezve az oldalra.",
+	"header4": "Hová továbbítjuk az adatokat:",
+	"description4": "A látogatók által beküldött üzeneteket automatikus spamszűrő szolgáltatás ellenőrizheti.",
+	"header5": "Statisztikai adatok:",
+	"description5": "A weboldal tárhelyszolgáltatója a látogatottságról statisztikai adatokat gyűjt. Ennek folyamatáról itt talál információt: ",
+	"link": "Nethely.hu adatkezelési szabályzata",
 	"back": "Vissza"
   },
   "info": {

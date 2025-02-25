@@ -1,10 +1,10 @@
 @use '../style/colors.scss';
 
 #gallery {
-    padding: 80px 20px 140px;
+    padding: 80px 20px 80px;
 
     @media  screen and (max-width: 500px) {
-        padding: 50px 5px 80px;
+        padding: 50px 5px 50px;
     }
 
     background-color: colors.$light;

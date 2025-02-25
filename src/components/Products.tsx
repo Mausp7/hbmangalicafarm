@@ -19,6 +19,7 @@ const Products = () => {
 	return (
 		<section id="products">
 			<h2>{t("products.title")}</h2>
+			<p className={"product-description"}>{t("products.description")}</p>
 			<Box className="tab-container" sx={{ width: "100%" }}>
 				<Box sx={{ borderBottom: 1, borderColor: "divider" }}>
 					<Tabs
@@ -26,10 +27,10 @@ const Products = () => {
 						onChange={switchTab}
 						variant="fullWidth"
 					>
-						<Tab label={t("products.product1.title")} wrapped />
-						<Tab label={t("products.product2.title")} wrapped />
-						<Tab label={t("products.product3.title")} wrapped />
-						<Tab label={t("products.product4.title")} wrapped />
+						<Tab label={t("products.product1.title")} wrapped className={"product-button"}/>
+						<Tab label={t("products.product2.title")} wrapped className={"product-button"}/>
+						<Tab label={t("products.product3.title")} wrapped className={"product-button"}/>
+						<Tab label={t("products.product4.title")} wrapped className={"product-button"}/>
 					</Tabs>
 				</Box>
 				<Product openTab={openTab} index={0} />

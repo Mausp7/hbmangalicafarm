@@ -17,28 +17,82 @@
         padding: 50px 5px;
     }
 
-    background-color: colors.$secondary;
-
     color: colors.$primary;
     background: linear-gradient(colors.$secondary 0%, colors.$light 100%);
 
     h2 {
-        margin-right: 20px;
+        margin: 20px 20px 20px 0 !important;
+        color: colors.$light
+    }
+
+    p.product-description {
+        margin: 20px 20px 40px;
+        color: colors.$light;
+        font-size: 1.6em;
+        text-align: right;
+        text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+
+        @media  screen and (max-width: 700px) {
+            font-size: 1.3em;
+
+        }
     }
 
     .tab-container {
+        max-width: 1200px;
+
+        margin: 0 auto;
         padding: 5px 10px 5px;
         background-color: #fff;
         box-shadow: 5px 5px 10px #00000088;
+
+        .product-button {
+            font-size: 1.4em;
+
+            @media  screen and (max-width: 900px) {
+                font-size: 1.2em;
+            }
+
+            @media  screen and (max-width: 700px) {
+                font-size: 1em;
+
+            }
+            @media  screen and (max-width: 550px) {
+                font-size: 0.8em;
+            }
+        }
     }
 
     .tabpanel {
         color: colors.$primary;
-        
+
+        .product-details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                margin: 20px 10px 20px;
+
+                font-size: 1.8em;
+                text-align: center;
+                color: colors.$primary;
+            }
+
+            p.price {
+                font-size: 2.2em;
+                font-weight: bold;
+            }
+
+        }
+
+
         .img-container {
             display: flex;
             align-items: flex-start;
-            min-height: 200px;
+            width: 50%;
+            min-height: 500px;
 
             margin-bottom: 7px;
             background-position: center;

@@ -3,11 +3,11 @@ import "react-multi-carousel/lib/styles.css";
 
 import { useTranslation } from "react-i18next";
 
-import pic1 from "../media/pic/1.jpg";
-import pic2 from "../media/pic/2.jpg";
-import pic3 from "../media/pic/3.jpg";
-import pic4 from "../media/pic/4.jpg";
-import pic5 from "../media/pic/5.jpg";
+import pic1 from "../media/pic/gallery/1.jpg";
+import pic2 from "../media/pic/gallery/2.jpg";
+import pic3 from "../media/pic/gallery/3.jpg";
+import pic4 from "../media/pic/gallery/4.jpg";
+import pic5 from "../media/pic/gallery/5.jpg";
 
 import "./Gallery.scss";
 
@@ -15,11 +15,11 @@ const Gallery = () => {
 	const { t } = useTranslation();
 
 	const pictures = [
-		{ title: "épület", src: pic1 },
-		{ title: "vizsgáló", src: pic2 },
-		{ title: "shop", src: pic3 },
-		{ title: "patika", src: pic4 },
-		{ title: "akvárium", src: pic5 },
+		{ title: "", src: pic1 },
+		{ title: "", src: pic2 },
+		{ title: "", src: pic3 },
+		{ title: "", src: pic4 },
+		{ title: "", src: pic5 },
 	];
 
 	const responsive = {
@@ -62,7 +62,7 @@ const Gallery = () => {
 			>
 				{pictures.map(pic => (
 					<div key={pic.title}>
-						<img src={pic.src} alt={pic.title} />
+						<img src={pic.src} alt={pic.title} style={{height: "300px"}}/>
 					</div>
 				))}
 			</Carousel>

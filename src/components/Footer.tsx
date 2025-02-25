@@ -18,7 +18,7 @@ const Footer = () => {
 				underline="hover"
 				rel="noreferrer"
 				target="_blank"
-				color="primary"
+				color="#effffd"
 			>
 				© {date.getFullYear()} - AT Webdesign
 			</Link>
@@ -26,7 +26,7 @@ const Footer = () => {
 				<Button
 					variant="text"
 					size="small"
-					color="primary"
+					color="info"
 					sx={{ fontSize: "18px" }}
 				>
 					{t("impressum.title")}

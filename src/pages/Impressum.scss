@@ -27,10 +27,9 @@
     animation: fadeIn 150ms ease-out;
 
     div.text-container {
-        display: flex;
+        //display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+        //align-items: ;
         max-width: 800px;
 
         margin: 5px;
@@ -38,16 +37,24 @@
         border: 1px solid colors.$primary;
         border-radius: 3px;
 
-        text-align: center;
+        text-align: justify;
 
         h4 {
             margin-bottom: 40px;
 
-            font-size: 1.6em;
+            font-size: 1.8em;
+            text-align: center;
+        }
+
+        h5 {
+            margin-bottom: 10px;
+
+            font-size: 1.4em;
+            text-align: left;
         }
 
         p {
-            margin-bottom: 25px;
+            margin-bottom: 30px;
         }
     }
 }
